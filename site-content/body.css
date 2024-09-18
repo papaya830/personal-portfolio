@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    font: Domine;
+    margin-left: 25%;
+    font-size: 72px;
+}
+
+.about-blob{
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    text-align: justified;
+    width: 55%;
+    padding: 20px;
+    background-color: #F0F8FF;
+    border-radius: 60px;
+    margin-left: 5%
+}
+
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
