@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="body.css">
+    <title>personal portfolio draft</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Domine:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="nav-bar">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1>
+        Chloe Yip
+        <img class="head" src="pics-website/head.jpg" alt="avatar">
+    </h1>
+
+    <div class="content-container">
+        <div class="about-blob">
+            Hi there! My name is Chloe, and I am a third year <a href="https://www.sfu.ca/computing/prospective-students/undergraduate-students/programs/degree-programs/softwaresystems.html">Software Systems</a> major at SFU doing an engineering minor in
+            Computer and Electronics design. I'm interested in pursuing a career in software development, technical management,
+            and computer engineering. Currently, I'm a <a href="https://github.com/cyip10">Software Developer Intern</a> at <a href="https://www.improving.com/">Improving</a> (formerly BitQuill Technologies). <br><br>
+
+            I'm a member of SFU Enactus, Aqua Analyzer team, as a Software and Firmware Developer! In the spring I will be speaking at the Western Regional Competition for this project. <br>
+            In my free time, I enjoy staying active, exploring new food spots, and being creative.
+            Right now, I’m training for a triathlon coming up in March, and I’m also part of a pentasport and volleyball league.
+            <br><br>
+
+            Dive into my <a href="projects.html">Projects</a> to discover the exciting work I've been involved in and explore my professional journey.
+            Learn more <a href="about.html">About Me</a> to get to know who I am and what drives me.
+            Hit <a href="contact.html">Contact</a> to start a conversation and connect with me directly.
+        </div>
+
+        <div class="self-photo-slideshow">
+            <div class="images">
+                <img src="pics-website/me-pumpkin.jpg" alt="A photo of me with a pumpkin">
+            </div>
+            <div class="images">
+                <img src="pics-website/me-pomo.jpg" alt="A photo of me at the port moody pier">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+</main>
+
+<script src="slideshow.js"></script>
+</body>
+</html>
